@@ -1,0 +1,21 @@
+{
+  "name": "wdgm",
+  "description": "The wdgm api.",
+  "keywords": ["wdgm"],
+  "type": "project",
+  "autoload": {
+    "classmap": ["app/","bootstrap/"],
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/CommonFunction.php",
+      "app/TableConfig.php"
+    ]
+
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
+
